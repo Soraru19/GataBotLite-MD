@@ -14,7 +14,7 @@ import { en, es, id, ar, pt, de, it } from './lib/idiomas/total-idiomas.js'
 // EN ➜ If you want to receive reports you must use the three parameters (Number, name and true)
 global.owner = [
 ['5214774444444', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈
-['593968263524', '𝙂𝘽 𝘼𝙨𝙞𝙨𝙩𝙚𝙣𝙘𝙞𝙖 🌻🐈', true],
+['593968263524', 'Owner (100) 💻', true],
 ['5218715746374'],
 ['5492266613038'], 
 ['595976126756'],
@@ -134,7 +134,7 @@ global.notsent = '❗'
 global.waitemot = '⌛'
 global.waitemot2 = '⏳'
 
-global.multiplier = 60 // Cuanto más alto, más difícil subir de nivel
+global.multiplier = 30 // Cuanto más alto, más difícil subir de nivel
 
 // IDs de canales
 global.ch = {
