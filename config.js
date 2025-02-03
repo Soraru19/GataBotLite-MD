@@ -13,8 +13,8 @@ import { en, es, id, ar, pt, de, it } from './lib/idiomas/total-idiomas.js'
 // EN ➜ Add the Bot number as priority first
 // EN ➜ If you want to receive reports you must use the three parameters (Number, name and true)
 global.owner = [
-['5214774444444', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈
-['593968263524', '𝙂𝘽 𝘼𝙨𝙞𝙨𝙩𝙚𝙣𝙘𝙞𝙖 🌻🐈', true],
+['5214774444444', 'Ado bot', true], // Ado bot
+['593968263524', 'Owner (100) 💻', true],
 ['5218715746374'],
 ['5492266613038'], 
 ['595976126756'],
@@ -99,7 +99,6 @@ global.moment = moment
 
 global.packname = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈'
 global.author = '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨'
-global.policyGB = 'github.com/GataNina-Li/GataBot-MD/blob/master/terms.md'
 
 // ES ➜ Está parte es para mostrar el contacto de alguien al usar #contacto
 // EN ➜ This part is to display someone's contact using #contact
@@ -116,10 +115,10 @@ global.country = '' //agrega tú país ejemplo: 🇪🇨
 
 global.vs = '1.4.0'
 global.vsJB = '5.0 (beta)'
-global.gt = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿'
+global.gt = 'Ado bot'
 
-global.wm = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈 : 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨'
-global.igfg = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿'
+global.wm = 'Soraru 🌻🐈 : Sub bot'
+global.igfg = 'Soraru'
 global.nomorown = owner[0][0]
 
 global.htki = '*⭑•̩̩͙⊱•••• ☪*'
@@ -134,23 +133,11 @@ global.notsent = '❗'
 global.waitemot = '⌛'
 global.waitemot2 = '⏳'
 
-global.multiplier = 60 // Cuanto más alto, más difícil subir de nivel
+global.multiplier = 30 // Cuanto más alto, más difícil subir de nivel
 
 // IDs de canales
 global.ch = {
 ch1: '120363336642332098@newsletter',
-ch2: '120363160031023229@newsletter',
-ch3: '120363169294281316@newsletter',
-ch4: '120363203805910750@newsletter',
-ch5: '120363302472386010@newsletter',
-ch6: '120363301598733462@newsletter',
-ch7: '120363190430436554@newsletter',
-ch8: '120363374372683775@newsletter', 
-ch9: '120363167110224268@newsletter',
-ch10: '120363323882134704@newsletter',
-ch11: '120363370415738881@newsletter',
-ch12: '120363385983031660@newsletter',
-}
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
